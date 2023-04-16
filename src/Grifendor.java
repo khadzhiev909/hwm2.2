@@ -5,8 +5,9 @@ public class Grifendor  extends Hogwards{
     private int honor;
     private int bravery;
 
-    public Grifendor(String name, String surName, int nobility, int honor, int bravery) {
-        super(name, surName);
+
+    public Grifendor(String name, String surName, String facultetName, int powerOfMagic, int transgressionDistance, int nobility, int honor, int bravery) {
+        super(name, surName, powerOfMagic, transgressionDistance, facultetName);
         this.nobility = nobility;
         this.honor = honor;
         this.bravery = bravery;

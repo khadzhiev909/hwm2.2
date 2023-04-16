@@ -3,8 +3,8 @@ public class Puffenduy  extends Hogwards{
     int loyal;
     int honesty;
 
-    public Puffenduy(String name, String surName, int industriousness, int loyal, int honesty) {
-        super(name, surName);
+    public Puffenduy(String name, String surName, String facultetName, int powerOfMagic, int transgressionDistance, int industriousness, int loyal, int honesty) {
+        super(name, surName, powerOfMagic, transgressionDistance, facultetName);
         this.industriousness = industriousness;
         this.loyal = loyal;
         this.honesty = honesty;

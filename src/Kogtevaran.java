@@ -3,12 +3,13 @@ public class Kogtevaran extends Hogwards{
     private int wisdom;
     private int wit;
 
-    public Kogtevaran(String name, String surName,int mind, int wisdom, int wit) {
-        super(name, surName);
+    public Kogtevaran(String name, String surName, String facultetName, int powerOfMagic, int transgressionDistance, int mind, int wisdom, int wit) {
+        super(name, surName, powerOfMagic, transgressionDistance, facultetName);
         this.mind = mind;
         this.wisdom = wisdom;
         this.wit = wit;
     }
+
 
     public static void newMethods(Kogtevaran student1, Kogtevaran student2) {
         int totalValue = student1.mind + student1.wisdom + student1.wit;
